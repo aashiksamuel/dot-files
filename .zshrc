@@ -9,7 +9,9 @@ export ZSH=/home/brobot/.oh-my-zsh
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
  ZSH_THEME="bullet-train"
-
+# ZSH_THEME="agnosterzak"
+# ZSH_THEME="powerlevel9k/powerlevel9k"
+#
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
@@ -99,14 +101,19 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
 alias apt-get="sudo apt-get"
-alias apt-ins="sudo apt-get install"
-alias rm="rm -I"
+alias apti="sudo apt-get install"
+alias rm="rm -r -I"
 alias vimconfig="vi ~/.vim/vimrc"
 alias gvimconfig="gvim ~/.vim/vimrc"
 alias cat="colorize"
 alias vimdir="cd ~/.vim"
 alias tmuxns="tmux new -s"
 alias tmuxconfig="vi ~/.tmux.conf"
+alias aptsrcedit="sudo vi /etc/apt/sources.list"
+alias devel="cd ~/Projects"
+alias gitalias="alias | grep "
+alias gitals="alias | grep git"
+alias aptu="sudo apt-get update"
 
 
 # ZSH vi-mode
