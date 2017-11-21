@@ -10,6 +10,6 @@ cp ~/.oh-my-zsh/custom/.zsh_alias ~/.dot-files/dot-files/
 cp ~/.tmux.conf ~/.dot-files/dot-files/
 
 git add .
-DATE_CM="$(date)"
-echo "${DATE_CM}" | git commit -m 
+DATE_CM="Backup on $(date)"
+git commit -m "${DATE_CM}"
 git push
