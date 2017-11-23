@@ -13,4 +13,4 @@ alias gitalias="alias | grep "
 alias gitals="alias | grep git"
 alias aptu="sudo apt-get update"
 alias srz="source ~/.zshrc"
-
+alias tmux="tmux -2"

@@ -1,4 +1,4 @@
-export TERM="xterm-256color"
+ export TERM="xterm-256color"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -182,7 +182,7 @@ export ZSH=/home/brobot/.oh-my-zsh
 #POWERLEVEL9K_BATTERY_CHARGED_BACKGROUND="$DEFAULT_BACKGROUND"
 #POWERLEVEL9K_BATTERY_DISCONNECTED_BACKGROUND="$DEFAULT_BACKGROUND"
  ##}}}
-source ~/.oh-my-zsh/custom/.powerlevel9k.conf 
+source /home/brobot/.oh-my-zsh/custom/.powerlevel9k.conf 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Set list of themes to load
@@ -235,7 +235,7 @@ HIST_STAMPS="dd/mm/yyyy"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git vi-mode colorize web-search
+  git vi-mode colorize web-search colored-man-pages
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -269,7 +269,7 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-source ~/.oh-my-zsh/custom/.zsh_alias
+source /home/brobot/.oh-my-zsh/custom/.zsh_alias
 # Example aliases
 alias zshconfig="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
