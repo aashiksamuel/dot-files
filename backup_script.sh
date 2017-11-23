@@ -10,5 +10,5 @@ cp ~/.oh-my-zsh/custom/.zsh_alias ~/.dot-files/dot-files/
 
 git add .
 DATE_CM="Backup on $(date)"
-git commit -m "Backup on ${DATE_CM}"
+git commit -m "${DATE_CM}"
 git push
